@@ -17,5 +17,6 @@ mkdir -p \
   /tmp/nginx/cache/private \
   /var/cache/nginx/proxy_temp
 
+( cd /var/lib/nginx ; ln -nfs /usr/lib/nginx/modules )
 # Run
 exec nginx

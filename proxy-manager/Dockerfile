@@ -27,6 +27,13 @@ RUN \
         openssl=1.1.1b-r1 \
         dnsmasq=2.80-r3 \
         libcap=2.26-r0 \
+        lua-cjson \
+        lua-resty-string \
+        lua-resty-http \
+        lua-resty-session \
+        lua-resty-jwt \
+        lua-resty-openidc \
+        lua5.1-cjson \
     \
     && yarn global add modclean \
     \
